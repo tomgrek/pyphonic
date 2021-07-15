@@ -1,4 +1,3 @@
-
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -8,7 +7,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = fh.readlines()
 
 setuptools.setup(
-  name='Typhon',
+  name='Pyphonic',
   package_dir={"": "src"},
   packages=setuptools.find_packages(where="src"),
   python_requires=">=3.6",
@@ -18,7 +17,7 @@ setuptools.setup(
   description="Make a VST using Python",
   long_description=long_description,
   long_description_content_type="text/markdown",
-  url='https://github.com/tomgrek/typhon',
+  url='https://github.com/tomgrek/pyphonic',
   keywords=['VST', 'Audio', 'MIDI', 'Realtime', 'AI', 'Deep Learning'],
   install_requires=requirements,
   classifiers=[
