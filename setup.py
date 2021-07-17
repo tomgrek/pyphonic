@@ -13,7 +13,7 @@ setuptools.setup(
   python_requires=">=3.6",
   author='Tom Grek',
   author_email="tom.grek@gmail.com",
-  version="0.9",
+  version="0.9.1",
   description="Make a VST using Python",
   long_description=long_description,
   long_description_content_type="text/markdown",
